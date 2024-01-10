@@ -19,22 +19,27 @@ Use it to make something cool, have fun, and share what you've learned with othe
   font-style: normal;
   font-display: swap;
 }
-header {
-  height: 7vh;
-  padding: 15px 0;
-  background: #222;
+.header {
+  padding: 25px 0 39px;
 }
-header a {
-  color: #fff;
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container .header__logo {
+  background-color: #000;
+}
+
+.container {
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
   color: blue;
-}
-
-footer {
-  height: 100px;
-  background: #f00;
-  margin-top: auto;
 }
 /*# sourceMappingURL=style.css.map */
