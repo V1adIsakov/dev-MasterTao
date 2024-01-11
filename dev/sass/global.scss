@@ -1,0 +1,150 @@
+body {
+    background-color: $bg-primary;
+    color: $text-color;
+    font-family: $font-primary;
+}
+
+a {
+    color: $color-primary;
+
+    &:hover {
+        color: $color-primary;
+        text-decoration: none;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-weight: 700;
+    line-height: 126%;
+}
+
+h1,
+.h1 {
+    font-size: 56px;
+}
+
+h2,
+.h2 {
+    font-size: 36px;
+}
+
+h3,
+.h3 {
+    font-size: 24px;
+}
+
+h4,
+.h4 {
+    font-size: 22px;
+}
+
+h5,
+.h5 {
+    font-size: 20px;
+}
+
+h6,
+.h6 {
+    font-size: 18px;
+}
+
+ol {
+    counter-reset: li;
+    li {
+        list-style: none;
+        &:not([class]):before{
+            content: counter(li, decimal) ".";
+            counter-increment: li;
+            color: $color-secondary;   
+            margin-right: 12px;
+            font-weight: 600;
+            font-size: 18px;
+        }
+    }
+}
+
+ul {
+    li{
+        list-style: none;
+        &:not([class]):before{
+            content: "";
+            background-color: $color-secondary;   
+            margin-right: 12px;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+    }
+}
+.btn {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 146%;
+    border-radius: 90px;
+    padding: 13px 17px;
+    display: inline-flex;
+    align-items: center;
+    letter-spacing: 0.6px;
+
+    &:hover {
+        .icon {
+            filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(49deg) brightness(180%) contrast(101%);
+        }
+    }
+
+    &:focus-visible {
+        box-shadow: none;
+    }
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.btn-primary {
+    background-color: $color-primary;
+    border-color: $color-primary;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $color-secondary;
+        border-color: $color-secondary;
+    }
+    
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border-color: $color-primary;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $color-secondary;
+        border-color: $color-secondary;
+    }
+}
+
+.btn-lg {
+    padding: 19.6px 34px;
+    font-size: 16px;
+
+    .icon {
+        margin: 0 -14px 0 47px;
+        width: 27px;
+        height: 27px;
+        transition: .3s;
+    }
+}

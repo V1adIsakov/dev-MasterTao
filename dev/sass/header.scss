@@ -1,19 +1,47 @@
 .header{
 	padding: 25px 0 39px;
+	background-color: #000;
 	
 	.container{
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		max-width: 1170px;
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-left: auto;
+		margin-right: auto;
+
 		.header__logo{
-			background-color: #000;
+			max-width: 172px;
+			max-height: 60px;
 		}
 	}
-}
-.container{
-	max-width: 1170px;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin-left: auto;
-	margin-right: auto;
+		&__navigation{
+			max-width: 602px;
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			a{
+			 color: #fff;
+			 text-decoration: none;
+			 padding: 10px;
+			 &:hover{
+				color: #E58D35;
+			 }
+			}
+		}
+
+		.btn{
+			max-width: 170px;
+			max-height: 50px
+			font-weight: 600;
+			font-size: 15px;
+			line-height: 146%;
+			border-radius: 90px;
+			padding: 13px 17px;
+			display: inline-flex;
+			align-items: center;
+			letter-spacing: 0.6px;
+		}
 }

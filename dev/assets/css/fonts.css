@@ -1,0 +1,46 @@
+/*!!!!!!!!!!!!!!!!!!ProximaNova!!!!!!!!!!!!!!!!!!*/
+@font-face {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: 300;
+    font-display: fallback;
+    src: url(../fonts/proximanova_light.otf) format('OpenType');
+}
+@font-face {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: url(../fonts/proximanova_regular.ttf) format('TrueType');
+}
+@font-face {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: 600;
+    font-display: fallback;
+    src: url(../fonts/proximanova_bold.otf) format('OpenType');
+}
+@font-face {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: 700;
+    font-display: fallback;
+    src: url(../fonts/proximanova_extrabold.otf) format('OpenType');
+}
+@font-face {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: 800;
+    font-display: fallback;
+    src: url(../fonts/proximanova_black.otf) format('OpenType');
+}
+
+
+
+
+
+
+
+
+
+
