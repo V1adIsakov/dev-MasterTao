@@ -1,0 +1,200 @@
+/*
+Theme Name: CustomTheme
+Theme URI: https://wordpress.org/themes/CustomTheme/
+Author: the Rost team
+Author URI: http://rost.com.ua/
+Description: CustomTheme brings your site to life with immersive featured images and subtle animations. Our default theme works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: CustomTheme
+Tags: custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("./assets/fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.header {
+  padding: 25px 0 39px;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header .container .header__logo {
+  max-width: 172px;
+  max-height: 60px;
+}
+.header__navigation {
+  max-width: 602px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header__navigation a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+.header__navigation a:hover {
+  color: #E58D35;
+}
+
+h1 {
+  color: blue;
+}
+
+body {
+  background-color: #282B38;
+  color: #fff;
+  font-family: "ProximaNova";
+}
+
+a {
+  color: #E58D35;
+}
+a:hover {
+  color: #E58D35;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 700;
+  line-height: 126%;
+}
+
+h1,
+.h1 {
+  font-size: 56px;
+}
+
+h2,
+.h2 {
+  font-size: 36px;
+}
+
+h3,
+.h3 {
+  font-size: 24px;
+}
+
+h4,
+.h4 {
+  font-size: 22px;
+}
+
+h5,
+.h5 {
+  font-size: 20px;
+}
+
+h6,
+.h6 {
+  font-size: 18px;
+}
+
+ol {
+  counter-reset: li;
+}
+ol li {
+  list-style: none;
+}
+ol li:not([class]):before {
+  content: counter(li, decimal) ".";
+  counter-increment: li;
+  color: #89C249;
+  margin-right: 12px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+ul li {
+  list-style: none;
+}
+ul li:not([class]):before {
+  content: "";
+  background-color: #89C249;
+  margin-right: 12px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 146%;
+  border-radius: 90px;
+  padding: 13px 17px;
+  display: inline-flex;
+  align-items: center;
+  letter-spacing: 0.6px;
+}
+.btn:hover .icon {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(49deg) brightness(180%) contrast(101%);
+}
+.btn:focus-visible {
+  box-shadow: none;
+}
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn-primary {
+  background-color: #E58D35;
+  border-color: #E58D35;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  background-color: #89C249;
+  border-color: #89C249;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border-color: #E58D35;
+}
+.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus {
+  background-color: #89C249;
+  border-color: #89C249;
+}
+
+.btn-lg {
+  padding: 19.6px 34px;
+  font-size: 16px;
+}
+.btn-lg .icon {
+  margin: 0 -14px 0 47px;
+  width: 27px;
+  height: 27px;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 1199px) {
+  .header__navigation {
+    max-width: 550px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

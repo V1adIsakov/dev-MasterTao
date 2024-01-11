@@ -1,6 +1,5 @@
 .header{
 	padding: 25px 0 39px;
-	background-color: #000;
 	
 	.container{
 		display: flex;
@@ -30,18 +29,5 @@
 				color: #E58D35;
 			 }
 			}
-		}
-
-		.btn{
-			max-width: 170px;
-			max-height: 50px
-			font-weight: 600;
-			font-size: 15px;
-			line-height: 146%;
-			border-radius: 90px;
-			padding: 13px 17px;
-			display: inline-flex;
-			align-items: center;
-			letter-spacing: 0.6px;
 		}
 }
