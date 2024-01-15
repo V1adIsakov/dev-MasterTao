@@ -203,21 +203,39 @@ ul li:not([class]):before {
   transition: 0.3s;
 }
 
-.header__navigation {
-  display: none;
-}
-
-@media (min-width: 1025px) {
-  .btn-burger {
-    display: none;
-  }
+@media screen and (max-width: 1024px) {
   .header__navigation {
-    display: flex;
+    width: 100%;
+    position: fixed;
+    inset: 90px 0 0;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #363A4D;
+  }
+  .header__navigation .btn-primary {
+    justify-content: center;
+    width: 295px;
+    height: 68px;
+    flex-shrink: 0;
+    margin: 0 auto;
+  }
+  .header__navigation-list {
+    flex-direction: column;
+    margin-bottom: 34px;
+  }
+  .header__item-link {
+    font-size: 24px;
+    line-height: 222%;
   }
 }
 @media screen and (max-width: 1199px) {
-  .header__navigation {
+  .header__navigation-list {
     max-width: 550px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .btn-burger {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
