@@ -34,21 +34,30 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 .header .container .header__logo {
   max-width: 172px;
+  width: 100%;
   max-height: 60px;
 }
 .header__navigation {
-  max-width: 602px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
 }
 .header__navigation a {
   color: #fff;
   text-decoration: none;
-  padding: 10px;
+  padding: 5px;
 }
 .header__navigation a:hover {
   color: #E58D35;
+}
+.header__navigation-list {
+  max-width: 602px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0px;
+  list-style: none;
+  justify-content: space-between;
 }
 
 h1 {
@@ -58,7 +67,7 @@ h1 {
 body {
   background-color: #282B38;
   color: #fff;
-  font-family: "ProximaNova";
+  font-family: "Proxima Nova";
 }
 
 a {
@@ -144,6 +153,8 @@ ul li:not([class]):before {
 }
 
 .btn {
+  width: 171px;
+  height: 50px;
   font-weight: 600;
   font-size: 15px;
   line-height: 146%;
@@ -192,32 +203,18 @@ ul li:not([class]):before {
   transition: 0.3s;
 }
 
-/*
-@font-face {
-    font-family: "Proxima Nova";
-    src: url(assets/fonts/ProximaNova-Light.ttf) format("TrueType"), url(assets/fonts/ProximaNovaT-Light.otf) format("OpenType"), url(assets/fonts/ProximaNovaT-Light.woff2) format("woff2");
-    font-weight: 300;
-    font-style: normal;
+.header__navigation {
+  display: none;
+}
+
+@media (min-width: 1025px) {
+  .btn-burger {
+    display: none;
   }
-  @font-face {
-    font-family: "Proxima Nova";
-    src: url(assets/fonts/ProximaNova-Regular.ttf) format("TrueType"), url(assets/fonts/ProximaNovaT-Regular.otf) format("OpenType"), url(assets/fonts/ProximaNovaT-Regular.woff2) format("woff2");
-    font-weight: 400;
-    font-style: normal;
+  .header__navigation {
+    display: flex;
   }
-  @font-face {
-    font-family: "Proxima Nova";
-    src: url(assets/fonts/ProximaNova-Semibold.ttf) format("TrueType"), url(assets/fonts/ProximaNovaT-Semibold.otf) format("OpenType"), url(assets/fonts/ProximaNovaT-Semibold.woff2) format("woff2");
-    font-weight: 600;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "Proxima Nova";
-    src: url(assets/fonts/ProximaNova-Bold.ttf) format("TrueType"), url(assets/fonts/ProximaNovaT-Bold.otf) format("OpenType"), url(assets/fonts/ProximaNovaT-Bold.woff2) format("woff2");
-    font-weight: 700;
-    font-style: normal;
-  }
-  */
+}
 @media screen and (max-width: 1199px) {
   .header__navigation {
     max-width: 550px;
