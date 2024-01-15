@@ -206,9 +206,42 @@ ul li:not([class]):before {
 .btn-burger {
   padding: 1.3px 13.5px;
   border: none;
+  position: relative;
+  font: inherit;
+  display: inline-block;
+  overflow: visible;
+  margin: 0;
+}
+.btn-burger:hover {
+  opacity: 0.7;
+}
+.btn-burger:after, .btn-burger:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 27px;
+  height: 2.5px;
+  background: #fff;
+  transition: top 0.2s ease, opacity 0.2s ease, bottom 0.2s ease, transform 0.2s ease;
+}
+.btn-burger:after {
+  top: -20px;
+}
+.btn-burger:before {
+  top: -10px;
 }
 .btn-burger.open {
-  background: aqua;
+  transform: rotate(50deg);
+}
+.btn-burger.open:before {
+  top: 0;
+  opacity: 0;
+  transform: rotate(0deg);
+}
+.btn-burger.open:after {
+  bottom: 0;
+  transform: rotate(90deg) translate(21px, 0px);
 }
 
 @media screen and (max-width: 1024px) {
@@ -226,6 +259,9 @@ ul li:not([class]):before {
     height: 68px;
     flex-shrink: 0;
     margin: 0 auto;
+  }
+  .img-fluid {
+    width: 130px;
   }
   .header__navigation-list {
     flex-direction: column;
