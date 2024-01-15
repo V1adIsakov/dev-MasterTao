@@ -23,5 +23,10 @@
         font-size: 24px;
         line-height: 222%;
     }
+    .header__navigation {
+       display: none;
+    }
+    .show{
+    display: flex;
+    }
 }
-

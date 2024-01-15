@@ -150,3 +150,12 @@ ul {
         transition: .3s;
     }
 }
+
+.btn-burger {
+    padding: 1.3px 13.5px;
+    border: none;
+
+    &.open {
+        background: aqua;
+    }
+}
