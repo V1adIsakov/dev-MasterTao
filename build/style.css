@@ -20,15 +20,15 @@ Use it to make something cool, have fun, and share what you've learned with othe
   font-display: swap;
 }
 .header {
-  padding: 25px 0 39px;
+  padding: 18px 0 39px;
 }
 .header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 1170px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -141,6 +141,7 @@ ol li:not([class]):before {
 
 ul li {
   list-style: none;
+  margin-bottom: 11px;
 }
 ul li:not([class]):before {
   content: "";
@@ -226,7 +227,7 @@ ul li:not([class]):before {
   transition: top 0.2s ease, opacity 0.2s ease, bottom 0.2s ease, transform 0.2s ease;
 }
 .btn-burger:after {
-  top: -20px;
+  top: 10px;
 }
 .btn-burger:before {
   top: -10px;
@@ -241,7 +242,7 @@ ul li:not([class]):before {
 }
 .btn-burger.open:after {
   bottom: 0;
-  transform: rotate(90deg) translate(21px, 0px);
+  transform: rotate(90deg) translate(-9px, 0px);
 }
 
 @media screen and (max-width: 1024px) {
@@ -265,7 +266,8 @@ ul li:not([class]):before {
   }
   .header__navigation-list {
     flex-direction: column;
-    margin-bottom: 34px;
+    margin-bottom: 17px;
+    padding: 5px;
   }
   .header__item-link {
     font-size: 24px;

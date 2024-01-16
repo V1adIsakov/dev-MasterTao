@@ -79,6 +79,7 @@ ol {
 ul {
     li {
         list-style: none;
+        margin-bottom: 11px;
 
         &:not([class]):before {
             content: "";
@@ -182,7 +183,7 @@ ul {
     }
 
     &:after {
-        top: -20px;
+        top: 10px;
     }
 
     &:before {
@@ -198,7 +199,7 @@ ul {
                 }
                 &:after {
                     bottom: 0;
-                    transform: rotate(90deg) translate(21px, 0px);
+                    transform: rotate(90deg) translate(-9px, 0px);
                 }
             }
 }
