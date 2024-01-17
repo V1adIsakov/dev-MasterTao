@@ -1,0 +1,43 @@
+.container-xxl{
+    max-width: 1850px;
+}
+.banner{
+    .slick-slide{
+        height: 700px;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+    }
+    &-title{
+    max-width: 463px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 126%;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    }
+    &-subtitle{
+    max-width: 345px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 135.5%;
+    margin-bottom: 37px;
+    }
+}
+.first-photos{
+    background-position:center;
+    border: 20px;
+}
+.slick-arrow {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 43%;
+    transform: translate(-50%, -50%);
+}
+.slick-arrow.slick-prev {
+    bottom: -82px;
+    right: 100px;
+    z-index: 1;
+}

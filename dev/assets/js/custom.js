@@ -1,5 +1,8 @@
 $(document).ready(function(){
+
   $('#banner').slick({
+    dots: true,
+    arrows: true,
   });
 
   const burger = document.querySelector('.btn-burger');
