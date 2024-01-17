@@ -1,3 +1,7 @@
+$(document).ready(function(){
+  $('#banner').slick({
+  });
+
   const burger = document.querySelector('.btn-burger');
   const navigation = document.querySelector('.header__navigation');
  
@@ -12,3 +16,7 @@
 
 
   burger.addEventListener('click', Menu);
+
+});
+  
+  
