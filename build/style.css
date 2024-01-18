@@ -59,6 +59,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
   justify-content: space-between;
 }
 
+section {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  max-width: 1920px;
+}
+
 .container-xxl {
   max-width: 1850px;
   padding: 0 15px;
@@ -387,6 +395,15 @@ ul.slick-dots button {
   ul li {
     list-style: none;
     margin-bottom: 11px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: none;
+  }
+  .screen {
+    max-width: 1200px;
+    padding-bottom: 75px;
   }
 }
 @media screen and (max-width: 1199px) {
