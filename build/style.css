@@ -33,6 +33,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
   margin-right: auto;
 }
 .header .container .header__logo {
+  width: 100%;
   max-width: 172px;
   max-height: 60px;
 }
@@ -77,6 +78,7 @@ section {
   display: flex;
   align-items: center;
   border-radius: 20px;
+  padding: 0 92px 68px;
 }
 .banner-title {
   max-width: 463px;
@@ -359,13 +361,17 @@ ul.slick-dots button {
 }
 
 @media screen and (max-width: 1024px) {
+  .header {
+    padding-bottom: 15px;
+  }
   .header__navigation {
     width: 100%;
     position: fixed;
-    inset: 90px 0 0;
+    inset: 70px 0 0;
     flex-direction: column;
     padding: 15px;
     background-color: #363A4D;
+    z-index: 1;
   }
   .header__navigation .btn-primary {
     justify-content: center;
@@ -381,6 +387,7 @@ ul.slick-dots button {
     flex-direction: column;
     margin-bottom: 17px;
     padding: 5px;
+    z-index: 5;
   }
   .header__item-link {
     font-size: 24px;
@@ -396,14 +403,54 @@ ul.slick-dots button {
     list-style: none;
     margin-bottom: 11px;
   }
+  .banner .slick-slide {
+    border-radius: 0px;
+    padding: 0px 40px;
+    height: calc(100vh - 72px);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .banner .slick-slide:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.0784313725);
+  }
+  .banner .slick-slide .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    z-index: 1;
+  }
+  .banner-title {
+    max-width: 280px;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .banner-subtitle {
+    max-width: 260px;
+    font-size: 16px;
+    margin-bottom: 18px;
+  }
+  .slick-dots {
+    top: 92%;
+    left: 30%;
+  }
 }
 @media screen and (min-width: 1400px) {
-  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  .container {
     max-width: none;
   }
   .screen {
     max-width: 1200px;
-    padding-bottom: 75px;
+    padding-bottom: 0px;
+    padding-left: 30px;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -414,6 +461,9 @@ ul.slick-dots button {
 @media screen and (min-width: 1024px) {
   .btn-burger {
     display: none;
+  }
+  .banner .slick-slide {
+    border-radius: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */

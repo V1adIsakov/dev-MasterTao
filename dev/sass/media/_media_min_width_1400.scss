@@ -1,9 +1,10 @@
 @media screen and (min-width: 1400px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    .container{
         max-width: none;
     }
     .screen{
         max-width: 1200px;
-        padding-bottom: 75px;
+        padding-bottom: 0px;
+        padding-left: 30px;
     }
 }

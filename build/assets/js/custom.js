@@ -3,6 +3,15 @@ $(document).ready(function(){
   $('#banner').slick({
     dots: true,
     arrows: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          arrows: false,
+          dots: true,
+        }
+      }
+    ]
   });
 
   const burger = document.querySelector('.btn-burger');
