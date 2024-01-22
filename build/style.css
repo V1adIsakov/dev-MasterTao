@@ -78,7 +78,7 @@ section {
   display: flex;
   align-items: center;
   border-radius: 20px;
-  padding: 0 92px 68px;
+  padding: 0 150px 68px;
 }
 .banner-title {
   max-width: 463px;
@@ -360,9 +360,64 @@ ul.slick-dots button {
   outline: none;
 }
 
+.template-title {
+  max-width: 700px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 124.5%;
+  text-transform: uppercase;
+  /*
+  &:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: calc(100% - 2px);
+      transform: translate(-50%, 0);
+      width: 85px;
+      height: 2px;
+      background-color: $color-secondary;
+  }
+  */
+  /*type 3*/
+}
+.template-title h2 {
+  line-height: 124.5%;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.template-title h3 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.25;
+}
+.template-title.col-lg-7 {
+  text-align: left;
+  margin-bottom: 35px;
+  margin-left: 19%;
+}
+.template-title.col-lg-7 h2:after {
+  content: "";
+  display: inline-block;
+  width: 85px;
+  height: 2px;
+  margin: 10px;
+  background-color: #89C249;
+}
+.template-title .calculation .container {
+  position: relative;
+  padding: 0px;
+}
+
 @media screen and (max-width: 1024px) {
   .header {
     padding-bottom: 15px;
+  }
+  .header .container {
+    padding-bottom: 18px;
+    padding-top: 18px;
+  }
+  .header .logo {
+    max-width: 95px;
   }
   .header__navigation {
     width: 100%;
@@ -427,6 +482,7 @@ ul.slick-dots button {
     text-align: center;
     padding: 0;
     z-index: 1;
+    margin-bottom: 55px;
   }
   .banner-title {
     max-width: 280px;
@@ -439,8 +495,15 @@ ul.slick-dots button {
     margin-bottom: 18px;
   }
   .slick-dots {
-    top: 92%;
-    left: 30%;
+    bottom: 42px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .header {
+    padding: 0px;
+  }
+  .container-xxl {
+    padding: 0px;
   }
 }
 @media screen and (min-width: 1400px) {

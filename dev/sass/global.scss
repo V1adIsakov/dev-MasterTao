@@ -275,6 +275,63 @@ ul.slick-dots {
     }
 }
 
+    .template-title{
+        max-width: 700px;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 124.5%; 
+        text-transform: uppercase;
+
+        
+            h2 {
+                line-height: 124.5%;
+                text-transform: uppercase;
+                margin-bottom: 6px;
+            }
+
+            h3 {
+                font-weight: 300;
+                font-size: 24px;
+                line-height: 1.25;
+            }
+
+            /*
+            &:after {
+                content: "";
+                position: absolute;
+                left: 50%;
+                top: calc(100% - 2px);
+                transform: translate(-50%, 0);
+                width: 85px;
+                height: 2px;
+                background-color: $color-secondary;
+            }
+            */
+
+            /*type 3*/
+            &.col-lg-7 {
+                text-align: left;
+                margin-bottom: 35px;
+                margin-left: 19%;
+                h2 {
+                    &:after {
+                        content: "";
+                        display: inline-block;
+                        width: 85px;
+                        height: 2px;
+                        margin: 10px;
+                        background-color: $color-secondary;
+                    }
+                }
+            }     
+            
+            .calculation .container {
+                position: relative;
+                padding: 0px;
+            }
+
+}
+
 
 
 
