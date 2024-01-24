@@ -1,0 +1,15 @@
+.calculation {
+    @extend .charter;
+}
+
+.calculation-form {
+    max-width: 626px;
+    background-color: $bg-secondary;
+    padding: 43px 50px 61px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 19%;
+}
+
