@@ -29,6 +29,21 @@ $(document).ready(function(){
 
   burger.addEventListener('click', Menu);
 
+
+
+
+    const fileInput = document.querySelector('#fileInput');
+    const fileName = document.querySelector('#file-name')
+
+
+    fileInput.addEventListener('change', function() {
+      fileName.innerHTML = this.value;
+      //fileName.innerHTML = this.files[0].name;
+    });
+
+    const typeCheckBox = document.querySelector('[type=checkbox]');
+
+    typeCheckBox.closest('.input-column').classList.add('checked');
 });
   
   
