@@ -131,7 +131,6 @@ section {
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  margin-left: 19%;
   position: relative;
 }
 
@@ -143,7 +142,7 @@ section {
 .checked {
   padding-top: 25px;
   min-width: 248px;
-  padding-bottom: 118px;
+  padding-bottom: 123px;
 }
 .checked label {
   margin-bottom: 14px;
@@ -257,7 +256,7 @@ input::placeholder {
 
 .calculation-photo {
   position: absolute;
-  right: 340px;
+  left: 52%;
   top: -35px;
   max-width: 560px;
   width: 100%;
@@ -540,7 +539,6 @@ ul.slick-dots button {
 .template-title.col-lg-7 {
   text-align: left;
   margin-bottom: 35px;
-  margin-left: 19%;
 }
 .template-title.col-lg-7 h2:after {
   content: "";
@@ -688,6 +686,9 @@ ul.slick-dots button {
     max-width: 1200px;
     padding-bottom: 0px;
     padding-left: 30px;
+  }
+  .calc {
+    max-width: 1167px;
   }
 }
 @media screen and (max-width: 1199px) {
