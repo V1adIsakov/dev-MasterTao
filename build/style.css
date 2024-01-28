@@ -677,6 +677,41 @@ ul.slick-dots button {
   .container-xxl {
     padding: 0px;
   }
+  .container.calc .template-title h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 124.5%;
+    text-transform: uppercase;
+  }
+  .container.calc .template-title h2 ::after {
+    width: 0px;
+  }
+  .container.calc .input-row {
+    display: block;
+  }
+  .container.calc input {
+    margin-bottom: 20px;
+  }
+  .container.calc .file-text {
+    position: static;
+  }
+  .container.calc .checked {
+    padding-top: 6px;
+    padding-bottom: 20px;
+  }
+  .container.calc .input-file + label {
+    position: static;
+    display: flex;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 0px;
+    align-self: center;
+    text-align: center;
+  }
+  .container.calc .calculation-photo {
+    display: none;
+  }
 }
 @media screen and (min-width: 1400px) {
   .container {

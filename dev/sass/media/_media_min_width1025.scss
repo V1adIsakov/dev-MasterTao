@@ -98,4 +98,49 @@
     .container-xxl{
         padding: 0px;
     }
+
+
+
+    .container.calc{
+        .template-title h2 {
+            text-align: center;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 124.5%; 
+            text-transform: uppercase;
+            ::after{
+                    width: 0px;
+                }
+            }
+            
+            .input-row{
+                display: block;
+            }
+            input{
+                margin-bottom: 20px;
+            }
+            .file-text {
+                position: static;
+            }
+            .checked {
+                padding-top: 6px;
+                padding-bottom: 20px;
+            }
+            .input-file + label {
+                position: static;
+                display: flex;
+                display: inline-block;
+                margin-bottom: 20px;
+                padding: 0px;
+                align-self: center;
+                text-align: center;
+            }
+
+
+
+
+            .calculation-photo {
+                display: none;
+            }
+    }
 }
