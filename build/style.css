@@ -630,6 +630,9 @@ ul.slick-dots button {
     list-style: none;
     margin-bottom: 11px;
   }
+  .first-screen {
+    margin-bottom: 55px;
+  }
   .banner .slick-slide {
     border-radius: 0px;
     padding: 0px 40px;
@@ -677,39 +680,61 @@ ul.slick-dots button {
   .container-xxl {
     padding: 0px;
   }
+  .container.calc {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .container.calc .calculation-form {
+    padding: 49px 30px 34px;
+  }
   .container.calc .template-title h2 {
+    position: relative;
     text-align: center;
     font-size: 24px;
     font-weight: 700;
     line-height: 124.5%;
     text-transform: uppercase;
+    margin-bottom: 24%;
   }
-  .container.calc .template-title h2 ::after {
-    width: 0px;
+  .container.calc .template-title h2:after {
+    position: absolute;
+    left: 50%;
+    top: 113px;
+    transform: translate(-50%, 0);
+    margin: 0;
   }
   .container.calc .input-row {
     display: block;
   }
   .container.calc input {
-    margin-bottom: 20px;
+    margin-bottom: 18px;
+    max-width: 600px;
   }
   .container.calc .file-text {
     position: static;
+    margin-bottom: 10px;
   }
   .container.calc .checked {
-    padding-top: 6px;
-    padding-bottom: 20px;
+    padding-top: 8px;
+    padding-bottom: 2px;
   }
   .container.calc .input-file + label {
     position: static;
     display: flex;
     display: inline-block;
-    margin-bottom: 20px;
-    padding: 0px;
+    margin-bottom: 26px;
+    margin-left: -30px;
+    padding: 8px;
     align-self: center;
     text-align: center;
   }
-  .container.calc .calculation-photo {
+  .container.calc .btn-lg {
+    width: 274px;
+  }
+  .container.calc .btn-lg .icon {
+    margin: 0px -14px 0 70px;
+  }
+  .container.calc culation-photo {
     display: none;
   }
 }
