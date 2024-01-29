@@ -26,7 +26,7 @@
 .checked{
     padding-top: 25px;
     min-width: 248px;
-    padding-bottom: 123px;
+    padding-bottom: 120px;
     label{
         margin-bottom: 14px;
     }
@@ -41,11 +41,10 @@ input {
     border-radius: 10px;
     padding: 17px 20px;
     font-size: 14px;
-    min-height: 56px;
     border: none;
     transition: .2s;
     width: 100%; 
-    margin-bottom: 16px;
+    margin-bottom: 18px;
     
     &:focus-visible {
         outline: none;

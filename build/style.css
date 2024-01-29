@@ -142,7 +142,7 @@ section {
 .checked {
   padding-top: 25px;
   min-width: 248px;
-  padding-bottom: 123px;
+  padding-bottom: 120px;
 }
 .checked label {
   margin-bottom: 14px;
@@ -158,11 +158,10 @@ input {
   border-radius: 10px;
   padding: 17px 20px;
   font-size: 14px;
-  min-height: 56px;
   border: none;
   transition: 0.2s;
   width: 100%;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 input:focus-visible {
   outline: none;
@@ -716,7 +715,7 @@ ul.slick-dots button {
   }
   .container.calc .checked {
     padding-top: 8px;
-    padding-bottom: 2px;
+    padding-bottom: 5px;
   }
   .container.calc .input-file + label {
     position: static;
@@ -734,7 +733,7 @@ ul.slick-dots button {
   .container.calc .btn-lg .icon {
     margin: 0px -14px 0 70px;
   }
-  .container.calc culation-photo {
+  .container.calc .calculation-photo {
     display: none;
   }
 }

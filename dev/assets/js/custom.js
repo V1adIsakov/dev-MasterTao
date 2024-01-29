@@ -41,9 +41,24 @@ $(document).ready(function(){
       //fileName.innerHTML = this.files[0].name;
     });
 
-    const typeCheckBox = document.querySelector('[type=checkbox]');
+    const AllCheckBoxes = document.querySelectorAll('[type=checkbox]');
+    
+    if(AllCheckBoxes.length > 0) {
+      AllCheckBoxes.forEach(checkbox => {
+        checkbox.closest('.input-column').classList.add('checked');
+      })
+    } 
 
-    typeCheckBox.closest('.input-column').classList.add('checked');
+    const Allinputs = document.querySelectorAll('.input-file');
+
+    if(Allinputs.length > 0) {
+      Allinputs.forEach(item => {
+        item.closest('.input-column').style.minheight = '56px'
+      })
+    }
+
+
+
 });
   
   
