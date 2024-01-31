@@ -261,6 +261,86 @@ input::placeholder {
   width: 100%;
 }
 
+.advantages .template-title h2 {
+  text-align: center;
+}
+.advantages .template-title h2:after {
+  content: "";
+  display: inline-block;
+  width: 85px;
+  height: 2px;
+  margin: 0px;
+  position: absolute;
+  left: 50%;
+  top: 113px;
+  transform: translate(-50%, 0);
+  margin: 0;
+  background-color: #E58D35;
+}
+
+.advantage {
+  text-align: center;
+}
+
+.row {
+  row-gap: 48px;
+}
+
+.icon-box {
+  height: 113px;
+  width: 113px;
+  border: 1px solid #6C7188;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 auto 22px;
+  padding: 10px;
+}
+
+.icon-box img {
+  background: #8BC34A;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: none;
+}
+
+.advantage-description {
+  font-weight: 400;
+}
+
+.advantages {
+  margin-top: 0;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 90px 85px 100px;
+  max-width: 1920px;
+  position: relative;
+}
+.advantages:before {
+  content: "";
+  border-radius: 20px;
+  position: absolute;
+  left: 42px;
+  right: 42px;
+  top: 0;
+  height: 100%;
+  background-color: #363A4D;
+  z-index: -1;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: -2px;
+  margin-right: 2em;
+}
+
 body {
   background-color: #282B38;
   color: #fff;
