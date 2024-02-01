@@ -103,13 +103,16 @@
     }
 
 
-
+    .calculation {
+        margin-bottom: 60px;
+    }
     .container.calc{
             padding-right: 20px;
             padding-left: 20px;
 
             .calculation-form {
                 padding: 49px 30px 34px;
+                margin-bottom: 0px;
             }
 
             .template-title h2 {
@@ -164,5 +167,35 @@
             .calculation-photo {
                 display: none;
             }
+    }
+
+
+
+
+
+    .advantages{
+        padding: 0px;
+        .template-title h2 {
+            max-width: 350px;
+            font-size: 24px;
+            text-align: center;
+            padding-top: 55px;
+            &:after {
+                left: 50%;
+                top: 137px;
+                transform: translate(-50%, 0);
+        }
+        }
+        .advantage {
+            padding-top: 40px;
+        }
+        .advantage-description {
+            margin-bottom: 68px;
+        }
+        &:before {
+            width: 375px;
+            height: 479px;
+            border-radius: 0px;
+        }
     }
 }
