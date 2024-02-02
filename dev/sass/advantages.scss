@@ -1,26 +1,29 @@
-.advantages .template-title h2 {
-    width: 1140px;
+.advantages{
+.template-title{
+    margin: 0 auto;
+    h2 {
     text-align: center;
-        &:after {
-            content: "";
-            display: inline-block;
-            width: 85px;
-            height: 2px;
-            margin: 0px;
-            position: absolute;
-            left: 50%;
-            top: 153px;
-            transform: translate(-50%, 0);
-            background-color: $color-primary;
-    }
-}    
-
+          &:after {
+              content: "";
+              display: inline-block;
+              width: 85px;
+              height: 2px;
+              margin: 0px;
+              position: absolute;
+              left: 50%;
+              top: 153px;
+              transform: translate(-50%, 0);
+              background-color: $color-primary;
+          }
+      }   
+} 
+}
 .advantage {
     text-align: center;
     padding-top: 15px;
     
 }
- .row{
+ .row.advanting{
     row-gap: 55px;
  }
 
@@ -47,35 +50,34 @@
     font-weight: 400;
 }
 @mixin charter{
-    margin-top: 0;
-    margin-bottom: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 90px 325px 100px;
-    max-width: 1820px;
-    max-height: 725px;
-    width: 100%;
-    position: relative;
-                    
-     &:before {
-         content: "";
-         border-radius: 20px;
-         position: absolute;
-         left: 0;
-         right: 0;
-         top: 0;
-         height: 100%;
-         background-color: $bg-secondary;
-         z-index: -1;
-     }
+  margin-top: 0;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 90px 325px 85px;
+  max-width: 1820px;
+  width: 100%;
+  position: relative;
+                  
+   &:before {
+       content: "";
+       border-radius: 20px;
+       position: absolute;
+       left: 0;
+       right: 0;
+       top: 0;
+       height: 100%;
+       background-color: $bg-secondary;
+       z-index: -1;
+   }
 }
-
 .advantages  {
     @include charter;
-}
-
-
-@mixin reset-list {
+/*
+  nav ul {
+    @include horizontal-list;
+  }
+  @mixin reset-list {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -92,9 +94,8 @@
       }
     }
   }
-  
-  nav ul {
-    @include horizontal-list;
-  }
+  */
+}
 
-  
+
+ 

@@ -262,8 +262,10 @@ input::placeholder {
   width: 100%;
 }
 
+.advantages .template-title {
+  margin: 0 auto;
+}
 .advantages .template-title h2 {
-  width: 1140px;
   text-align: center;
 }
 .advantages .template-title h2:after {
@@ -284,7 +286,7 @@ input::placeholder {
   padding-top: 15px;
 }
 
-.row {
+.row.advanting {
   row-gap: 55px;
 }
 
@@ -316,11 +318,32 @@ input::placeholder {
   margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
-  padding: 90px 325px 100px;
+  padding: 90px 325px 85px;
   max-width: 1820px;
-  max-height: 725px;
   width: 100%;
   position: relative;
+  /*
+    nav ul {
+      @include horizontal-list;
+    }
+    @mixin reset-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    @mixin horizontal-list {
+      @include reset-list;
+
+      li {
+        display: inline-block;
+        margin: {
+          left: -2px;
+          right: 2em;
+        }
+      }
+    }
+    */
 }
 .advantages:before {
   content: "";
@@ -332,17 +355,6 @@ input::placeholder {
   height: 100%;
   background-color: #363A4D;
   z-index: -1;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-nav ul li {
-  display: inline-block;
-  margin-left: -2px;
-  margin-right: 2em;
 }
 
 body {
@@ -590,7 +602,6 @@ ul.slick-dots button {
 }
 
 .template-title {
-  max-width: 700px;
   font-size: 36px;
   font-weight: 700;
   line-height: 124.5%;
@@ -612,7 +623,7 @@ ul.slick-dots button {
 .template-title h2 {
   line-height: 124.5%;
   text-transform: uppercase;
-  margin-bottom: 8%;
+  margin-bottom: 55px;
 }
 .template-title h3 {
   font-weight: 300;
@@ -833,6 +844,7 @@ ul.slick-dots button {
     font-size: 24px;
     text-align: center;
     padding-top: 55px;
+    margin-bottom: 28px;
   }
   .advantages .template-title h2:after {
     left: 50%;
@@ -846,8 +858,6 @@ ul.slick-dots button {
     margin-bottom: 68px;
   }
   .advantages:before {
-    width: 375px;
-    height: 479px;
     border-radius: 0px;
   }
 }

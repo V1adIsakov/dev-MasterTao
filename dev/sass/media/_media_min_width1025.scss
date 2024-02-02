@@ -180,6 +180,7 @@
             font-size: 24px;
             text-align: center;
             padding-top: 55px;
+            margin-bottom: 28px;
             &:after {
                 left: 50%;
                 top: 137px;
@@ -193,8 +194,6 @@
             margin-bottom: 68px;
         }
         &:before {
-            width: 375px;
-            height: 479px;
             border-radius: 0px;
         }
     }
