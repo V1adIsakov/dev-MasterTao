@@ -1,4 +1,5 @@
 .advantages{
+  margin: 0 auto;
 .template-title{
     margin: 0 auto;
     h2 {
@@ -50,10 +51,6 @@
     font-weight: 400;
 }
 @mixin charter{
-  margin-top: 0;
-  margin-bottom: 100px;
-  margin-left: auto;
-  margin-right: auto;
   padding: 90px 325px 85px;
   max-width: 1820px;
   width: 100%;

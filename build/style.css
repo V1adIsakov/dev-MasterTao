@@ -61,12 +61,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
   justify-content: space-between;
 }
 
-section {
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
+.first-screen {
   margin-bottom: 100px;
-  max-width: 1920px;
 }
 
 .container-xxl {
@@ -262,6 +258,9 @@ input::placeholder {
   width: 100%;
 }
 
+.advantages {
+  margin: 0 auto;
+}
 .advantages .template-title {
   margin: 0 auto;
 }
@@ -314,10 +313,6 @@ input::placeholder {
 }
 
 .advantages {
-  margin-top: 0;
-  margin-bottom: 100px;
-  margin-left: auto;
-  margin-right: auto;
   padding: 90px 325px 85px;
   max-width: 1820px;
   width: 100%;
@@ -674,6 +669,10 @@ ul.slick-dots button {
   margin-top: 1px;
   margin-bottom: 6px;
 }
+.template-title section {
+  margin-bottom: 100px;
+  max-width: 1920px;
+}
 
 @media screen and (max-width: 1024px) {
   .header {
@@ -839,8 +838,10 @@ ul.slick-dots button {
   .advantages {
     padding: 0px;
   }
-  .advantages .template-title h2 {
+  .advantages .template-title {
     max-width: 350px;
+  }
+  .advantages .template-title h2 {
     font-size: 24px;
     text-align: center;
     padding-top: 55px;

@@ -175,8 +175,9 @@
 
     .advantages{
         padding: 0px;
-        .template-title h2 {
+        .template-title{
             max-width: 350px;
+            h2 {
             font-size: 24px;
             text-align: center;
             padding-top: 55px;
@@ -185,6 +186,7 @@
                 left: 50%;
                 top: 137px;
                 transform: translate(-50%, 0);
+        }
         }
         }
         .advantage {
