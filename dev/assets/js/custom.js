@@ -13,6 +13,7 @@ $(document).ready(function(){
       }
     ]
   });
+  
 
   mobileOnlySlider("#slider-advantages", true, false, 1024);
 
@@ -42,6 +43,36 @@ $(document).ready(function(){
       }
     });
   } // Mobile Only Slider
+  
+
+  $('.slider-template').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 1025,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+          dots: true,
+        }
+      },
+    ]
+  });
+
   
   const burger = document.querySelector('.btn-burger');
   const navigation = document.querySelector('.header__navigation');

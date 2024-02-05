@@ -352,6 +352,124 @@ input::placeholder {
   z-index: -1;
 }
 
+.delivery {
+  position: relative;
+  margin-bottom: 100px;
+}
+.delivery .template-title {
+  margin: 0 auto;
+}
+.delivery .template-title h2 {
+  text-align: center;
+  padding-top: 97px;
+  margin-bottom: 70px;
+}
+.delivery .template-title h2:after {
+  content: "";
+  display: inline-block;
+  width: 85px;
+  height: 2px;
+  margin: 0px;
+  position: absolute;
+  left: 50%;
+  top: 160px;
+  transform: translate(-50%, 0);
+  background-color: #E58D35;
+}
+
+.template-card {
+  background-color: #363A4D;
+  padding: 0 20px 27px;
+  max-width: 360px;
+  border-radius: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+.template-card > .img-box {
+  height: 229px;
+  margin: 0 -20px 27px;
+  display: flex;
+  justify-content: center;
+}
+.template-card > .img-box img {
+  object-fit: cover;
+  object-position: center;
+}
+.template-card__title {
+  margin-bottom: 12px;
+}
+.template-card__options {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-bottom: 7px;
+}
+.template-card__options-item {
+  display: flex;
+  gap: 7px;
+}
+.template-card__options-item .img-box {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.template-card__price {
+  margin-bottom: 11px;
+}
+.template-card__price span {
+  font-size: 22px;
+}
+.template-card__price span:first-child {
+  color: #A3A3A3;
+}
+.template-card__price b {
+  font-size: 46px;
+}
+.template-card-btn-row {
+  display: flex;
+  gap: 14px;
+}
+.template-card-btn-row .btn {
+  width: 100%;
+  justify-content: center;
+  padding: 13px 10px;
+}
+
+.slider-template {
+  margin: 0 -15px;
+  /*
+  .slick-prev {
+      left: -110px
+      transform: translate(0, -50%) rotate(180deg);
+
+  }
+
+  .slick-next {
+      right: -100px;
+      transform: translate(0, -50%);
+  }
+  */
+}
+.slider-template .slick-slide {
+  margin: 0 15px;
+}
+.slider-template .template-card {
+  margin: 0 auto;
+}
+.slider-template .slick-arrow {
+  position: absolute;
+  z-index: 1;
+  top: 190px;
+}
+.slider-template .slick-arrow.slick-prev {
+  left: -100px;
+}
+.slider-template .slick-arrow.slick-next {
+  right: -100px;
+}
+
 body {
   background-color: #282B38;
   color: #fff;
