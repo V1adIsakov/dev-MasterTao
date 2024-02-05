@@ -105,10 +105,11 @@
 
     .calculation {
         margin-bottom: 60px;
-    }
-    .container.calc{
+
+        .container.calc{
             padding-right: 20px;
             padding-left: 20px;
+        }
 
             .calculation-form {
                 padding: 49px 30px 34px;
@@ -198,5 +199,43 @@
         &:before {
             border-radius: 0px;
         }
+    }
+
+
+    .delivery{
+
+        .template-title{
+            margin-bottom: 20px;
+            h2 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 55px;
+            &:after{
+                position: absolute;
+                left: 50%;
+                top: 179px;
+                transform: translate(-50%, 0);
+                margin: 0;
+                }
+        }
+    }
+    .template-card{
+        max-width: 337px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .template-card-btn-row {
+        .btn {
+            max-width: 137px;
+        }
+        .btn-primary{
+            margin-left: 27px;
+        }
+    }
+
+    .slick-dots {
+        position: absolute;
+        top: 515px;
+    }
     }
 }
