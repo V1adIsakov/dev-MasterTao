@@ -1126,5 +1126,31 @@ ul.slick-dots button {
     position: absolute;
     top: 515px;
   }
+  .services {
+    border-radius: 0px;
+  }
+  .services .template-title {
+    margin-bottom: 20px;
+  }
+  .services .template-title h2 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 60px;
+  }
+  .services .template-title h2:after {
+    position: absolute;
+    left: 50%;
+    top: 179px;
+    transform: translate(-50%, 0);
+    margin: 0;
+  }
+  .services .template-card {
+    max-width: 337px;
+  }
+  .services .slick-dots {
+    position: absolute;
+    top: 515px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
