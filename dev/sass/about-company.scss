@@ -1,0 +1,40 @@
+.about-company{
+    .container{
+        position: relative;
+    }
+    .template-title{
+        text-align: left;
+        padding-top: 145px;
+        h2 {
+            margin-bottom: 63px;
+            &:after {
+                content: "";
+                display: inline-block;
+                width: 85px;
+                height: 2px;
+                margin: 0px;
+                position: absolute;
+                left: 5%;
+                top: 205px;
+                transform: translate(-50%, 0);
+                background-color: $color-secondary;
+            }
+        }
+    }
+    .template-subtitle h6{
+        max-width: 555px;
+        font-weight: 100;
+        line-height: 170%;
+    }
+
+    .second-subtitle{
+        padding-top: 15px;
+    }
+    .about-company-photo {
+        position: absolute;
+        left: 600px;
+        top: 85px;
+        max-width: 560px;
+        width: 100%;
+    }
+}

@@ -547,6 +547,44 @@ input::placeholder {
   z-index: 2;
 }
 
+.about-company .container {
+  position: relative;
+}
+.about-company .template-title {
+  text-align: left;
+  padding-top: 145px;
+}
+.about-company .template-title h2 {
+  margin-bottom: 63px;
+}
+.about-company .template-title h2:after {
+  content: "";
+  display: inline-block;
+  width: 85px;
+  height: 2px;
+  margin: 0px;
+  position: absolute;
+  left: 5%;
+  top: 205px;
+  transform: translate(-50%, 0);
+  background-color: #89C249;
+}
+.about-company .template-subtitle h6 {
+  max-width: 555px;
+  font-weight: 100;
+  line-height: 170%;
+}
+.about-company .second-subtitle {
+  padding-top: 15px;
+}
+.about-company .about-company-photo {
+  position: absolute;
+  left: 600px;
+  top: 85px;
+  max-width: 560px;
+  width: 100%;
+}
+
 body {
   background-color: #282B38;
   color: #fff;
@@ -1151,6 +1189,35 @@ ul.slick-dots button {
   .services .slick-dots {
     position: absolute;
     top: 515px;
+  }
+  .about-company .template-title {
+    text-align: center;
+    padding-top: 53px;
+  }
+  .about-company .template-title h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 51px;
+  }
+  .about-company .template-title h2:after {
+    top: 106px;
+    left: 50%;
+  }
+  .about-company .template-subtitle h6 {
+    margin: 0 auto;
+    font-size: 16px;
+    max-width: 335px;
+    line-height: 150%;
+    text-align: justify;
+  }
+  .about-company .second-subtitle {
+    padding-top: 20px;
+  }
+  .about-company .about-company-photo {
+    width: 280px;
+    height: 290px;
+    left: 55px;
+    top: 530px;
   }
 }
 /*# sourceMappingURL=style.css.map */

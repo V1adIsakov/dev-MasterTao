@@ -269,4 +269,39 @@
         top: 515px;
     }
     }
+
+
+    .about-company{
+         .template-title{
+            text-align: center;
+            padding-top: 53px;
+            h2{
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 51px;
+            &:after{
+                top: 106px;
+                left: 50%;
+                }
+            }
+        }
+        .template-subtitle h6{
+            margin: 0 auto;
+            font-size: 16px;
+            max-width: 335px;
+            line-height: 150%;
+            text-align: justify;
+        }
+        
+        .second-subtitle{
+            padding-top: 20px;
+        }
+        .about-company-photo{
+            width: 280px;
+            height: 290px;
+            left: 55px;
+            top: 530px;
+
+        }
+    }
 }
