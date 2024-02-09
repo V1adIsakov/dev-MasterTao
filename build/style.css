@@ -259,7 +259,10 @@ input::placeholder {
 }
 
 .advantages {
-  margin: 0 auto;
+  margin-bottom: 97px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0px;
 }
 .advantages .template-title {
   margin: 0 auto;
@@ -361,7 +364,6 @@ input::placeholder {
 }
 .delivery .template-title h2 {
   text-align: center;
-  padding-top: 97px;
   margin-bottom: 70px;
 }
 .delivery .template-title h2:after {
@@ -372,7 +374,7 @@ input::placeholder {
   margin: 0px;
   position: absolute;
   left: 50%;
-  top: 160px;
+  top: 60px;
   transform: translate(-50%, 0);
   background-color: #89C249;
 }
@@ -488,6 +490,9 @@ input::placeholder {
   z-index: -1;
 }
 
+.services {
+  margin-bottom: 145px;
+}
 .services .calc {
   position: relative;
 }
@@ -552,7 +557,6 @@ input::placeholder {
 }
 .about-company .template-title {
   text-align: left;
-  padding-top: 145px;
 }
 .about-company .template-title h2 {
   margin-bottom: 63px;
@@ -565,7 +569,7 @@ input::placeholder {
   margin: 0px;
   position: absolute;
   left: 5%;
-  top: 205px;
+  top: 60px;
   transform: translate(-50%, 0);
   background-color: #89C249;
 }
@@ -580,7 +584,7 @@ input::placeholder {
 .about-company .about-company-photo {
   position: absolute;
   left: 600px;
-  top: 85px;
+  top: -55px;
   max-width: 560px;
   width: 100%;
 }
@@ -1108,6 +1112,7 @@ ul.slick-dots button {
     display: none;
   }
   .advantages {
+    margin-bottom: 100px;
     padding: 0px;
   }
   .advantages .template-title {
@@ -1137,6 +1142,7 @@ ul.slick-dots button {
     margin-bottom: 20px;
   }
   .delivery .template-title h2 {
+    padding-top: 0px;
     text-align: center;
     font-size: 24px;
     margin-bottom: 55px;
@@ -1144,7 +1150,7 @@ ul.slick-dots button {
   .delivery .template-title h2:after {
     position: absolute;
     left: 50%;
-    top: 179px;
+    top: 83px;
     transform: translate(-50%, 0);
     margin: 0;
   }
@@ -1165,6 +1171,9 @@ ul.slick-dots button {
     top: 515px;
   }
   .services {
+    margin-bottom: 53px;
+  }
+  .services:before {
     border-radius: 0px;
   }
   .services .template-title {
@@ -1179,7 +1188,7 @@ ul.slick-dots button {
   .services .template-title h2:after {
     position: absolute;
     left: 50%;
-    top: 179px;
+    top: 91px;
     transform: translate(-50%, 0);
     margin: 0;
   }
@@ -1192,15 +1201,15 @@ ul.slick-dots button {
   }
   .about-company .template-title {
     text-align: center;
-    padding-top: 53px;
+    padding-top: 0px;
   }
   .about-company .template-title h2 {
     text-align: center;
     font-size: 24px;
-    margin-bottom: 51px;
+    margin-bottom: 48px;
   }
   .about-company .template-title h2:after {
-    top: 106px;
+    top: 50px;
     left: 50%;
   }
   .about-company .template-subtitle h6 {
@@ -1217,7 +1226,7 @@ ul.slick-dots button {
     width: 280px;
     height: 290px;
     left: 55px;
-    top: 530px;
+    top: 474px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -4,7 +4,6 @@
     }
     .template-title{
         text-align: left;
-        padding-top: 145px;
         h2 {
             margin-bottom: 63px;
             &:after {
@@ -15,7 +14,7 @@
                 margin: 0px;
                 position: absolute;
                 left: 5%;
-                top: 205px;
+                top: 60px;
                 transform: translate(-50%, 0);
                 background-color: $color-secondary;
             }
@@ -33,7 +32,7 @@
     .about-company-photo {
         position: absolute;
         left: 600px;
-        top: 85px;
+        top: -55px;
         max-width: 560px;
         width: 100%;
     }

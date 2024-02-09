@@ -5,7 +5,6 @@
         margin: 0 auto;
         h2 {
         text-align: center;
-        padding-top: 97px;
         margin-bottom: 70px;
         
               &:after {
@@ -16,7 +15,7 @@
                   margin: 0px;
                   position: absolute;
                   left: 50%;
-                  top: 160px;
+                  top: 60px;
                   transform: translate(-50%, 0);
                   background-color: $color-secondary;
               }

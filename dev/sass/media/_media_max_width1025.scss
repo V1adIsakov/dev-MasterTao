@@ -175,6 +175,7 @@
 
 
     .advantages{
+        margin-bottom: 100px;
         padding: 0px;
         .template-title{
             max-width: 350px;
@@ -207,13 +208,14 @@
         .template-title{
             margin-bottom: 20px;
             h2 {
+            padding-top: 0px;
             text-align: center;
             font-size: 24px;
             margin-bottom: 55px;
             &:after{
                 position: absolute;
                 left: 50%;
-                top: 179px;
+                top: 83px;
                 transform: translate(-50%, 0);
                 margin: 0;
                 }
@@ -243,7 +245,10 @@
 
 
     .services{
-        border-radius: 0px;
+            margin-bottom: 53px;
+            &:before {
+            border-radius: 0px;
+            }
         .template-title{
             margin-bottom: 20px;
             h2 {
@@ -254,7 +259,7 @@
             &:after{
                 position: absolute;
                 left: 50%;
-                top: 179px;
+                top: 91px;
                 transform: translate(-50%, 0);
                 margin: 0;
                 }
@@ -274,13 +279,13 @@
     .about-company{
          .template-title{
             text-align: center;
-            padding-top: 53px;
+            padding-top: 0px;
             h2{
             text-align: center;
             font-size: 24px;
-            margin-bottom: 51px;
+            margin-bottom: 48px;
             &:after{
-                top: 106px;
+                top: 50px;
                 left: 50%;
                 }
             }
@@ -300,7 +305,7 @@
             width: 280px;
             height: 290px;
             left: 55px;
-            top: 530px;
+            top: 474px;
 
         }
     }
