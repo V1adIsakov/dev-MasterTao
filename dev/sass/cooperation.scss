@@ -1,0 +1,52 @@
+.cooperation {
+    .calc{
+        position: relative;
+    }
+    .template-title{
+        margin: 0 auto;
+        text-align: center;
+        h2 {
+            margin-bottom: 5px;
+            &:after {
+                content: "";
+                display: inline-block;
+                width: 85px;
+                height: 2px;
+                margin: 0px;
+                position: absolute;
+                left: 5%;
+                top: 60px;
+                transform: translate(-50%, 0);
+                background-color: $color-secondary;
+            }
+        }
+    }
+    .cooperation-img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .cooperation-text {
+      max-width: 555px;
+      font-weight: 100;
+      font-size: 17px;
+      line-height: 156.5%;
+      margin-bottom: 23px;
+    }
+  
+    .first-block-cooperation,
+    .second-block-cooperation {
+      display: flex;
+      
+    }
+  
+    .cooperation-text {
+      flex: none;
+      text-indent: 20px;
+    }
+
+    .cooperation-button{
+        flex: none;
+    }
+  }
+  

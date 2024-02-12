@@ -1,0 +1,129 @@
+.questions{
+    margin-bottom: 170px;
+    .calc{
+        position: relative;
+    }
+    .template-title{
+        margin: 0 auto;
+        text-align: center;
+        h2 {
+            margin-bottom: 65px;
+            &:after {
+                content: "";
+                display: inline-block;
+                width: 85px;
+                height: 2px;
+                margin: 0px;
+                position: absolute;
+                left: 50%;
+                top: 60px;
+                transform: translate(-50%, 0);
+                background-color: $color-secondary;
+            }
+        }
+    }
+
+ .accordion {
+    box-shadow: none;
+    max-width: 716px;
+    width: 100%;
+    --bs-accordion-bg: transparent:
+    --bs-border-color: transparent;
+    --bs-accordion-border-radius: 10px;
+    --bs-accordion-btn-icon-width: 27px;
+    --bs-accordion-btn-icon-transform: rotate(-360deg);
+}
+
+.accordion-button{
+    background: transparent;
+    color: #fff;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid #3A444E;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 33px;
+    line-height: 124.5%;
+    box-shadow: none; 
+}
+.accordion-body{
+    background: #fff;
+    font-size: 17px;
+    border-radius: 0px 0px 10px 10px;
+    padding-right: 100px;
+    padding-left: 33px;
+    padding-bottom: 24px;
+    padding-top: 5px;
+    font-weight: 300;
+    line-height: 144.5%;
+    box-shadow: none; 
+}
+.accordion-item{
+    margin-bottom: 18px;
+    border: transparent;
+}
+.accordion-button.collapsed:after {
+    background-image: url(assets/img/arrow-accordion-right.svg);
+}
+
+.accordion-button::after {
+    background-image: url(assets/img/arrow-accordion-up.svg);
+    
+}
+.accordion-button:not(.collapsed) {
+    background-color: #fff;
+    color: #000;
+    box-shadow: none;
+    border: transparent;
+}
+
+
+
+
+
+
+.questions-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 37px;
+  }
+  .container-fluid{
+    max-width: 390px;
+    max-height: 553px;
+    padding-right: 50px;
+    padding-left: 40px;
+  }
+  .questions-title{
+    padding-top: 23px;
+  }
+  .questions-title,
+  .questions-subtitle{
+    text-align: left;
+    padding-left: 0px;
+  }
+
+  .questions-subtitle{
+    max-width: 300px;
+  }
+
+  .form-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-box {
+    margin-bottom: 0px;
+  }
+  input {
+    max-width: 310px;
+  }
+  .btn {
+    margin-top: 15px; 
+  }
+  .btn-lg{
+    width: 310px;
+    .icon {
+        margin: 0 -14px 0 83px;
+  }
+}
+}
