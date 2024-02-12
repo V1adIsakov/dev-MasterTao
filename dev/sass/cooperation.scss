@@ -1,8 +1,11 @@
-.cooperation {
+.cooperation.container-fluid{
+    padding-bottom: 10px;
+
     .calc{
         position: relative;
     }
     .template-title{
+        padding-top: 75px;
         margin: 0 auto;
         text-align: center;
         h2 {
@@ -14,11 +17,15 @@
                 height: 2px;
                 margin: 0px;
                 position: absolute;
-                left: 5%;
-                top: 60px;
+                left: 50%;
+                top: 180px;
                 transform: translate(-50%, 0);
                 background-color: $color-secondary;
             }
+        }
+        h3{
+            text-transform: none;
+            margin-bottom: 113px;
         }
     }
     .cooperation-img {
@@ -39,14 +46,39 @@
       display: flex;
       
     }
+    .second-block-cooperation{
+        margin-left: -40px;
+    }
   
     .cooperation-text {
       flex: none;
-      text-indent: 20px;
+      h6{
+        font-size: 17px;
+        margin-bottom: 30px;
+        font-weight: 100;
+        line-height: 156%;
     }
+    }
+    .cooperation-text-second {
+        h6{
+          padding-top: 18px;
+          font-size: 17px;
+          font-weight: 100;
+          line-height: 156%;
+      }
+      .btn-lg{
+        margin-left: 10px;
+        width: 100%;
+        max-width: 243px;
+      }
+      }
 
     .cooperation-button{
         flex: none;
+    }
+    .second-subtitle{
+        margin-bottom: 40px;
+
     }
   }
   

@@ -593,7 +593,7 @@ input::placeholder {
 }
 
 .questions {
-  margin-bottom: 170px;
+  margin-bottom: 80px;
 }
 .questions .calc {
   position: relative;
@@ -709,49 +709,79 @@ input::placeholder {
   margin: 0 -14px 0 83px;
 }
 
-.cooperation .calc {
+.cooperation.container-fluid {
+  padding-bottom: 10px;
+}
+.cooperation.container-fluid .calc {
   position: relative;
 }
-.cooperation .template-title {
+.cooperation.container-fluid .template-title {
+  padding-top: 75px;
   margin: 0 auto;
   text-align: center;
 }
-.cooperation .template-title h2 {
+.cooperation.container-fluid .template-title h2 {
   margin-bottom: 5px;
 }
-.cooperation .template-title h2:after {
+.cooperation.container-fluid .template-title h2:after {
   content: "";
   display: inline-block;
   width: 85px;
   height: 2px;
   margin: 0px;
   position: absolute;
-  left: 5%;
-  top: 60px;
+  left: 50%;
+  top: 180px;
   transform: translate(-50%, 0);
   background-color: #89C249;
 }
-.cooperation .cooperation-img {
+.cooperation.container-fluid .template-title h3 {
+  text-transform: none;
+  margin-bottom: 113px;
+}
+.cooperation.container-fluid .cooperation-img {
   max-width: 100%;
   height: auto;
 }
-.cooperation .cooperation-text {
+.cooperation.container-fluid .cooperation-text {
   max-width: 555px;
   font-weight: 100;
   font-size: 17px;
   line-height: 156.5%;
   margin-bottom: 23px;
 }
-.cooperation .first-block-cooperation,
-.cooperation .second-block-cooperation {
+.cooperation.container-fluid .first-block-cooperation,
+.cooperation.container-fluid .second-block-cooperation {
   display: flex;
 }
-.cooperation .cooperation-text {
-  flex: none;
-  text-indent: 20px;
+.cooperation.container-fluid .second-block-cooperation {
+  margin-left: -40px;
 }
-.cooperation .cooperation-button {
+.cooperation.container-fluid .cooperation-text {
   flex: none;
+}
+.cooperation.container-fluid .cooperation-text h6 {
+  font-size: 17px;
+  margin-bottom: 30px;
+  font-weight: 100;
+  line-height: 156%;
+}
+.cooperation.container-fluid .cooperation-text-second h6 {
+  padding-top: 18px;
+  font-size: 17px;
+  font-weight: 100;
+  line-height: 156%;
+}
+.cooperation.container-fluid .cooperation-text-second .btn-lg {
+  margin-left: 10px;
+  width: 100%;
+  max-width: 243px;
+}
+.cooperation.container-fluid .cooperation-button {
+  flex: none;
+}
+.cooperation.container-fluid .second-subtitle {
+  margin-bottom: 40px;
 }
 
 body {
