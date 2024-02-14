@@ -785,6 +785,9 @@ input::placeholder {
   margin-bottom: 40px;
 }
 
+.footer {
+  margin-bottom: 55px;
+}
 .footer .container.calc {
   position: relative;
 }
@@ -826,6 +829,9 @@ input::placeholder {
 }
 .footer .logo-footer {
   margin-bottom: 30px;
+}
+.footer .social-footer {
+  padding-top: 10px;
 }
 
 body {
@@ -1438,6 +1444,9 @@ ul.slick-dots button {
     position: absolute;
     top: 515px;
   }
+  .about-company {
+    margin-bottom: 380px;
+  }
   .about-company .template-title {
     text-align: center;
     padding-top: 0px;
@@ -1466,6 +1475,169 @@ ul.slick-dots button {
     height: 290px;
     left: 55px;
     top: 474px;
+  }
+  .questions {
+    margin-bottom: 62px;
+  }
+  .questions .template-title {
+    text-align: center;
+    padding-top: 0px;
+  }
+  .questions .template-title h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 42px;
+  }
+  .questions .template-title h2:after {
+    top: 50px;
+    left: 50%;
+  }
+  .questions .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .questions .d-flex {
+    display: block !important;
+  }
+  .questions .accordion {
+    padding: 10px;
+  }
+  .questions .accordion-button {
+    max-width: 335px;
+    height: 64px;
+    font-size: 16px;
+    line-height: 125%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+  }
+  .questions .accordion-body {
+    max-height: 152px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+    max-width: 335px;
+    font-size: 14px;
+    line-height: 144%;
+  }
+  .questions .accordion-item {
+    margin-bottom: 16px;
+  }
+  .questions .questions-form {
+    max-width: 335px;
+    margin: 0 auto;
+  }
+  .questions .questions-title,
+  .questions .questions-subtitle {
+    text-align: center;
+  }
+  .questions .questions-subtitle {
+    width: 300px;
+    padding-left: 25px;
+    margin-bottom: 19px;
+  }
+  .questions .btn {
+    margin-top: 10px;
+  }
+  .questions .btn-lg {
+    width: 295px;
+  }
+  .questions .btn-lg .icon {
+    margin: 0 -14px 0 75px;
+  }
+  .questions input {
+    width: 296px;
+    margin-bottom: 15px;
+  }
+  .questions .big-col {
+    height: 70px;
+  }
+  .cooperation.container-fluid:before {
+    border-radius: 0px;
+  }
+  .cooperation.container-fluid .template-title {
+    padding-top: 40px;
+  }
+  .cooperation.container-fluid .template-title h2 {
+    text-align: center;
+    font-size: 24px;
+  }
+  .cooperation.container-fluid .template-title h3 {
+    font-size: 16px;
+    margin-bottom: 57px;
+  }
+  .cooperation.container-fluid .template-title h3:after {
+    top: 50px;
+    left: 50%;
+  }
+  .cooperation.container-fluid .car-cooperation {
+    width: 380px;
+    height: 262px;
+    margin-left: -13px;
+    margin-bottom: 7px;
+  }
+  .cooperation.container-fluid .first-block-cooperation,
+  .cooperation.container-fluid .second-block-cooperation {
+    display: flex;
+    flex-direction: column;
+  }
+  .cooperation.container-fluid .first-block-cooperation {
+    flex-direction: column-reverse;
+    max-width: 840px;
+  }
+  .cooperation.container-fluid .second-block-cooperation {
+    margin-left: 0px;
+  }
+  .cooperation.container-fluid .second-block-cooperation .car-cooperation {
+    margin-bottom: 0px;
+  }
+  .cooperation.container-fluid .second-block-cooperation .cooperation-text-second h6 {
+    padding-top: 0px;
+  }
+  .cooperation.container-fluid .second-block-cooperation .cooperation-text-second .second-subtitle {
+    margin-bottom: 32px;
+  }
+  .cooperation.container-fluid .second-block-cooperation .btn-lg {
+    max-width: 335px;
+    margin-bottom: 39px;
+  }
+  .cooperation.container-fluid .second-block-cooperation .btn-lg .icon {
+    margin: 0 -14px 0 130px;
+  }
+  .cooperation.container-fluid .cooperation-text,
+  .cooperation.container-fluid .cooperation-text-second {
+    margin-bottom: 8px;
+  }
+  .cooperation.container-fluid .cooperation-text h6,
+  .cooperation.container-fluid .cooperation-text-second h6 {
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 22px;
+    line-height: 149%;
+    font-size: 16px;
+  }
+  .footer .container.calc::before {
+    width: 335px;
+  }
+  .footer .main-info {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer .transportation-footer {
+    display: none;
+  }
+  .footer .services-footer {
+    display: none;
+  }
+  .footer .info-footer {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */

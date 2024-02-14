@@ -1,4 +1,5 @@
 .footer{
+    margin-bottom: 55px;
     .container.calc{
         position: relative;
         &:before{
@@ -42,5 +43,8 @@
     .logo-footer{
         margin-bottom: 30px;
     }
-                    
+            
+   .social-footer{
+    padding-top: 10px;
+   }
 }
